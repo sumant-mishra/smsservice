@@ -80,7 +80,7 @@ namespace SMSSendAndReceive.Controllers
 
 
         [HttpPost("send-sms")]
-        public IActionResult SendSms(SMSBody smsBody)
+        public ActionResult<IEnumerable<SMSStatus>> SendSms(SMSBody smsBody)
         {
             var accountSid = "AC543bddcd8e90efaebd92577531c694d0";
             var authToken = "bba190cb04207b30a04a1126bef1ed1d";

@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "/Volumes/Macintosh HD2/Magic/Projects/Bellxcel/SMS/SMSSendAndReceive/SMSSendAndReceive.csproj": {}
+  },
+  "projects": {
+    "/Volumes/Macintosh HD2/Magic/Projects/Bellxcel/SMS/SMSSendAndReceive/SMSSendAndReceive.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/Macintosh HD2/Magic/Projects/Bellxcel/SMS/SMSSendAndReceive/SMSSendAndReceive.csproj",
+        "projectName": "SMSSendAndReceive",
+        "projectPath": "/Volumes/Macintosh HD2/Magic/Projects/Bellxcel/SMS/SMSSendAndReceive/SMSSendAndReceive.csproj",
+        "packagesPath": "/Users/sumantmishra/.nuget/packages/",
+        "outputPath": "/Volumes/Macintosh HD2/Magic/Projects/Bellxcel/SMS/SMSSendAndReceive/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sumantmishra/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Twilio": {
+              "target": "Package",
+              "version": "[5.39.1, )"
+            },
+            "Twilio.AspNet.Core": {
+              "target": "Package",
+              "version": "[5.33.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

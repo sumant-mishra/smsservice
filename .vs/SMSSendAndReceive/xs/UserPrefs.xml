@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{504D11C4-2363-4B2E-ABC0-70357B0C92F0}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Properties/launchSettings.json">
+    <Files>
+      <File FileName="Controllers/WeatherForecastController.cs" Line="27" Column="44" />
+      <File FileName="Controllers/SMSController.cs" />
+      <File FileName="appsettings.json" />
+      <File FileName="Properties/launchSettings.json" Line="13" Column="35" />
+      <File FileName="Models/SMSBody.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SMSSendAndReceive" expanded="True">
+            <Node name="SMSSendAndReceive" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True">
+                <Node name="launchSettings.json" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SMSSendAndReceive PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
